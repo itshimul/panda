@@ -1,0 +1,92 @@
+body {
+	
+}
+.container{
+	margin-bottom:100px;
+}
+.carousel-bg, .bg-orange{
+	background-color:#fceae8;
+	border-radius:10px;
+	
+}
+.carousel-item{
+	padding:20px 40px;
+}
+h1{
+	margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.buy_now{
+	background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.buy_now:hover{
+	background-image: linear-gradient(to bottom, #FF589B 10%, #FF136F 50%);
+}
+.price_text{
+	color:#FF136F;;
+}
+.cat-1{background:orange;}
+.cat-2{background:orchid;;}
+.cat-3{background:blue;}
+.cat-1, .cat-2, .cat-3{
+	padding:20px;
+	border-radius:10px;
+}
+.categories img{
+	width:100px;
+}
+.categories h1{
+	color:#fff;
+}
+.shoes-item, .backpack-item{
+	width: 100%;    
+    background-color: transparent;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;    
+	box-sizing: border-box;
+}
+.shoes_content, .backpack_content{
+	padding:20px;
+}
+.shoes_title, .backpack_title{
+	padding-bottom:4px;
+}
+
+.backpack-item{
+	height:620px;
+}
+.backpack_button{
+	position: absolute;
+    bottom: 10px;
+    padding-left: 20px;
+}
+.subscription input[type=text]{
+	margin-bottom:10px;
+}
+.subscription h6{
+	color:gray;
+}
+.subscription{
+	padding: 70px;
+}
+@media only screen and (max-width: 768px) {
+.backpack-item {
+    height: auto;
+}
+.backpack_button {
+    position: inherit;    
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.cat-1, .cat-2, .cat-3 {    
+    margin-bottom: 20px;
+}
+.container {
+    margin-bottom: 30px;
+}
+}
