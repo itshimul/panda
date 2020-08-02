@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	
 }
 .container{
-	margin-bottom:100px;
+	margin-bottom:10px;
 }
 .carousel-bg, .bg-orange{
 	background-color:#fceae8;
